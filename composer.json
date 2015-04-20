@@ -1,0 +1,22 @@
+{
+    "name": "salopot/yii2-debug-memcached",
+    "description": "The memcached panel for Yii2 debug module",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," yii2-debug"," memcached"," panel"," extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kireev",
+            "email": "salopot@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-debug": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "salopot\\debug\\memcached\\": ""
+        }
+    }
+}
