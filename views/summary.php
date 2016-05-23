@@ -11,7 +11,7 @@ $stateLabels = [
     MemcachedPanel::STATE_ERROR => 'label-important',
 ];
 ?>
-<div class="yii-debug-toolbar-block">
+<div class="yii-debug-toolbar__block">
     <?=Html::a('Memcached '
         .Html::tag('span', "{$panel->formatSize($summary['bytes'])} ({$panel->formatPercent($summary['percent_memory_usage'])})", [
             'class' => 'label '.$stateLabels[$summary['usageState']]
